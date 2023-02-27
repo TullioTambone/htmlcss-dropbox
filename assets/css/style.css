@@ -41,7 +41,7 @@ img{
 }
 
 .basis{
-    flex-basis: calc(100% / 7 - 5px);
+    flex-basis: calc(100% / 3 - 10px);
 }
 .space-between{
     justify-content: space-between;
@@ -394,3 +394,52 @@ input[type='radio']:checked:after {
 }
 
 /*fine seconda section*/
+
+
+/*terza section*/
+.business{
+    margin-top: 10%;
+    width: 100%;
+}
+
+.bus-box{
+    width: 50%;
+}
+.business h2{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+
+.bus-box h3{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight:900 ;
+}
+
+.bus-box p{
+    font-size: 14px;
+}
+
+.f-s-3{
+    width: 50%;
+    margin-top: 150px;
+}
+.fot-3{
+    width: 60%;
+    text-align: left;
+}
+
+.fot-3 h2{
+    text-align: left;
+}
+
+.fot-3 a{
+    color: blue;
+    text-decoration-line: underline;
+}
+
+/*fine terza section*/
+
+/* quarta sezione*/
+

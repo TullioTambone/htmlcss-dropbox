@@ -399,6 +399,7 @@ input[type='radio']:checked:after {
 /*terza section*/
 .business{
     margin-top: 10%;
+    margin-bottom: 10%;
     width: 100%;
 }
 
@@ -443,3 +444,26 @@ input[type='radio']:checked:after {
 
 /* quarta sezione*/
 
+.client{
+    width: 100%;
+}
+
+/*divisione dei 3 div*/
+.client-box{
+    width: calc(100vw / 3);
+}
+
+.sub-client{
+    border: 1px solid black;
+    height: 200px;
+    width: 150px;
+}
+
+/*sub divisione dei 4 div all'interno*/
+.client-basis{
+    flex-basis: calc(100% / 2);
+}
+
+.mid{
+    background-color: #0061ff;
+}

@@ -118,6 +118,10 @@ img{
 .giallo{
     background-color: #ffd830;
 }
+
+.white{
+    color: white;
+}
 /*bottoni*/
 
 .btnblue {
@@ -563,6 +567,7 @@ input[type='radio']:checked:after {
 
 .domande{
     width: 100%;
+    margin-bottom: 100px;
 }
 
 .quest{
@@ -613,4 +618,77 @@ input[type='radio']:checked:after {
     z-index: 99;
 }
 
-/* footer*/
+
+/*footer*/
+
+footer{
+    width: 100%;
+    background-color: black;
+}
+
+/*contenitore dei 5 sub-box*/
+.f-box{
+    width: 900px;
+}
+
+.f-sub-box{
+    width: calc(100% /5 - 10px);
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/*liste disposte a sx*/
+.f-sub-box ul{
+    text-align: left;
+}
+
+.f-sub-box ul li{
+    margin-top: 5%;
+}
+
+.f-sub-box ul li a strong{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.f-sub-box ul li a{
+    font-size: 12px;
+    color: white;
+}
+
+.f-1{
+    width: 50%;
+    color: #738adc;
+    font-size: 25px;
+}
+
+select{
+    border: #23272A;
+    background-color: #23272A;
+    color: white;
+    font-size: medium;
+}
+
+
+
+/*sub-footer*/
+
+.hr{
+    width: 100px;
+    color: gray;
+    margin: 20px 0;
+}
+
+.ita{
+    margin-top: 10px;
+}
+
+.ita i{
+    color: white;
+    margin-right: 10px;
+}
+
+.arw-ita{
+    margin-left: 10px;
+    margin-bottom: 50px;
+}

@@ -1,0 +1,193 @@
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+/*utility*/
+.flex{
+    display: flex;
+}
+
+.flex-y{
+    flex-direction: column;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.relative{
+    position: relative;
+}
+
+.basis{
+    flex-basis: calc(100% / 7 - 5px);
+}
+.space-between{
+    justify-content: space-between;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+.center-x{
+    justify-content: center;
+}
+
+.center-y{
+    align-items: center;
+}
+
+.text-center{
+    text-align: center;
+}
+
+/*bottoni*/
+
+.btnblue {
+    color: white;
+    padding: 5px 15px;
+    background-color: #0061ff;
+    border: none;
+}
+
+.btnblue:hover {
+    background-color: #297bff;
+    cursor: pointer;
+}
+
+/* nav section */
+
+nav{
+    width: 100%;
+    font-size: 15px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: white;
+}
+
+nav div ul li a{
+    color: black;
+}
+
+/*sezione sx nav*/
+.nav-left{
+    margin-left: 20px;
+}
+
+.nav-left > a{
+    align-self: center;
+    margin-right: 5px;
+}
+
+.nav-left ul li a{
+    margin: 0 10px;
+}
+
+.nav-left ul{
+    height: 100%;
+}
+
+.nav-left ul li{
+    padding: 30px 0;
+}
+
+/*hover bottoni*/
+
+.nav-left ul li:hover,
+.nav-right  ul li:hover {
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+
+
+/*sez dx nav*/
+
+.nav-right{
+    margin-right: 30px;
+}
+
+.nav-right > input{
+    height: 25px;
+    margin: auto;
+    margin-left: 5px;
+}
+
+.nav-right ul li a{
+    margin: 0 10px;
+}
+
+.nav-right ul{
+    height: 100%;
+}
+
+.nav-right ul li{
+    padding: 30px 0;
+}
+
+
+/*sez. jumbo*/
+
+.jumbo{
+    padding-top: 5%;
+    background-color: #b4d0e7;
+    width: 100%;
+}
+
+.jumbo-box{
+    width: 60%;
+}
+
+.jumbo-sub-box{
+    width: 33%;
+}
+
+.jumbo-mid{
+    margin-top: 5%;
+    font-size: 14px;
+}
+
+.jumbo-box h1{
+    font-size: 60px;
+    margin-top: 5%;
+    font-weight: 800;
+}
+
+.jumbo-mid p{
+    margin-bottom: 10%;
+}
+
+.jumbo-mid span{
+    display: block;
+    margin-top: 10%;
+}
+
+.arrow{
+    font-size: 40px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.jumbo-box img{
+    height: 350px;
+}
+
+.jumbo-img{
+    right: 20%;
+}

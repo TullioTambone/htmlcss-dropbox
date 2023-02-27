@@ -83,6 +83,41 @@ img{
 .m-top-bot{
     margin: 5px 0;
 }
+
+/* colori */
+
+.light-green{
+    background-color: #a2d39b;
+    border: 10px solid #d1e9cd;
+}
+
+.bordeaux{
+    background-color: #61082b;
+}
+
+.celeste{
+    background-color: #0093ce;
+}
+
+.rosso{
+    background-color: #ff1c1c;
+}
+
+.rosso-dark{
+    background-color: #d5001f;
+}
+
+.grigio-trasparente{
+    background-color: #b4d0e7;
+}
+
+.dark-blue{
+    background-color: #0d2481;
+}
+
+.giallo{
+    background-color: #ffd830;
+}
 /*bottoni*/
 
 .btnblue {
@@ -399,7 +434,7 @@ input[type='radio']:checked:after {
 /*terza section*/
 .business{
     margin-top: 10%;
-    margin-bottom: 10%;
+    margin-bottom: 1%;
     width: 100%;
 }
 
@@ -409,7 +444,7 @@ input[type='radio']:checked:after {
 .business h2{
     text-align: center;
     font-size: 30px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 
 .bus-box h3{
@@ -446,6 +481,8 @@ input[type='radio']:checked:after {
 
 .client{
     width: 100%;
+    height: 50vh;
+    margin: 100px 0;
 }
 
 /*divisione dei 3 div*/
@@ -454,9 +491,8 @@ input[type='radio']:checked:after {
 }
 
 .sub-client{
-    border: 1px solid black;
-    height: 200px;
-    width: 150px;
+    height: calc(60vh / 2);
+    width: calc(30vh / 2);
 }
 
 /*sub divisione dei 4 div all'interno*/
@@ -464,6 +500,62 @@ input[type='radio']:checked:after {
     flex-basis: calc(100% / 2);
 }
 
-.mid{
-    background-color: #0061ff;
+.client-box img{
+    width: 20vh;
+    filter: invert(100%);
 }
+
+.mid{
+    padding: 3%;
+    background-color: #f5f5f5;
+}
+
+#hr{
+    margin: 30px 0;
+    width: 30%;
+}
+
+.mid img{
+    width: 30vh;
+    filter: invert(0%);
+}
+
+.mid p{
+    margin: 10px 0;
+    font-size: 13px;
+}
+
+
+
+.f-client{
+    width: 100%;
+}
+
+.f-sub-client{
+    width: 70%;
+    padding: 5%;
+}
+
+.f-c-l{
+    width: 50%;
+    font-size: 25px;
+    color: #61082b;
+}
+
+.f-c-r{
+    width: 50%;
+}
+
+.f-c-r a{
+    font-size: 15px;
+    color: black;
+}
+
+.client-button{
+    color:black;
+    background-color: white;
+    padding: 3% 2%;
+    align-self: baseline;
+}
+
+/*sezione finale*/

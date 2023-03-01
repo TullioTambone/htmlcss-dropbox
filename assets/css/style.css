@@ -19,104 +19,9 @@ img{
     display: block;
     width: 100%;
 }
-/*utility*/
-.flex{
-    display: flex;
-}
 
-.flex-y{
-    flex-direction: column;
-}
-
-.wrap{
-    flex-wrap: wrap;
-}
-
-.absolute{
-    position: absolute;
-}
-
-.relative{
-    position: relative;
-}
-
-.basis{
-    flex-basis: calc(100% / 3 - 10px);
-}
-.space-between{
-    justify-content: space-between;
-}
-
-.space-around{
-    justify-content: space-around;
-}
-.center-x{
-    justify-content: center;
-}
-
-.center-y{
-    align-items: center;
-}
-
-.text-center{
-    text-align: center;
-}
-
-/*spazi*/
-.space{
-    margin-right: 5%;
-}
-
-.vertical-space{
-    margin-top: 50px;
-    margin-bottom: 20px;
-}
-
-.sp-right-5{
-    margin-right: 5px;
-}
-
-.text-size-12{
-    font-size: 12px;
-}
-
-.m-top-bot{
-    margin: 5px 0;
-}
-
-/* colori */
-
-.light-green{
-    background-color: #a2d39b;
-    border: 10px solid #d1e9cd;
-}
-.bordeaux{
-    background-color: #61082b;
-}
-.celeste{
-    background-color: #0093ce;
-}
-.rosso{
-    background-color: #ff1c1c;
-}
-.rosso-dark{
-    background-color: #d5001f;
-}
-.grigio-trasparente{
-    background-color: #b4d0e7;
-}
-.dark-blue{
-    background-color: #0d2481;
-}
-.giallo{
-    background-color: #ffd830;
-}
-.white{
-    color: white;
-}
 /*bottoni*/
 .btnblue {
-    
     color: white;
     padding: 5px 20px;
     background-color: #0061ff;
@@ -252,7 +157,6 @@ nav div ul li a{
 
 
 /* inizio body */
-
 /*prima sezione*/
 
 .plans{
@@ -269,6 +173,9 @@ nav div ul li a{
     font-size: 15px;
 }
 
+.input-box > span{
+    margin-right: 5%;
+}
 
 /*IL BORDELLO PER IL CHECK*/
 
@@ -306,11 +213,11 @@ input[type='radio']:checked:after {
 .card{
     width: 30%;
     margin-top: 4%;
-    border: 1px solid gray;
+    border: 1px solid lightgray;
 }
 
 .head-card{
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid lightgray;
     text-align: center;
     padding: 5px 0;  
 }
@@ -319,6 +226,10 @@ input[type='radio']:checked:after {
     margin: 10%;
 }
 
+.main-card input{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
 .price{
     margin: 10px 0;
 }
@@ -358,7 +269,7 @@ input[type='radio']:checked:after {
 }
 .plans-sub{
     width: 100%;
-    border: 1px solid gray;
+    border: 1px solid lightgray;
     margin-top: 5%;
 }
 .main-sub-card{
@@ -366,6 +277,7 @@ input[type='radio']:checked:after {
 }
 #strong{
     margin-top: 20px;
+    margin-bottom: 50px;
 }
 .self-end{
     justify-content: flex-end;
@@ -448,35 +360,31 @@ input[type='radio']:checked:after {
 
 /* quarta sezione*/
 .client{
+    margin-top: 100px;
     width: 100%;
-    height: 50vh;
-    margin: 100px 0;
-    margin-bottom: 293px;
 }
 
 /*divisione dei 3 div*/
 .client-box{
-    width: calc(100vw / 3);
+    width: calc(100vw/3);
+    aspect-ratio: 1;
 }
 
 .sub-client{
-    height: calc(60vh / 2);
-    width: calc(30vh / 2);
-}
-
-/*sub divisione dei 4 div all'interno*/
-.client-basis{
+    aspect-ratio: 1;
     flex-basis: calc(100% / 2);
 }
 
+/*sub divisione dei 4 div all'interno*/
 .client-box img{
-    width: 20vh;
+    width: 50%;
     filter: invert(100%);
 }
 
 .mid{
     padding: 3%;
     background-color: #f5f5f5;
+    overflow: auto;
 }
 
 #hr{
@@ -485,7 +393,7 @@ input[type='radio']:checked:after {
 }
 
 .mid img{
-    width: 30vh;
+    width: 50%;
     filter: invert(0%);
 }
 
@@ -494,12 +402,8 @@ input[type='radio']:checked:after {
     font-size: 13px;
 }
 
-.f-client{
-    width: 100%;
-}
-
 .f-sub-client{
-    width: 70%;
+    width: 60%;
     padding: 5%;
 }
 
@@ -614,12 +518,15 @@ footer{
 
 .f-sub-box ul li a strong{
     font-size: 20px;
-    margin-bottom: 20px;
 }
 
 .f-sub-box ul li a{
     font-size: 12px;
     color: white;
+}
+
+.f-sub-box ul li:first-child{
+    margin-bottom: 20px;
 }
 
 .f-1{
@@ -644,14 +551,15 @@ select{
 
 .ita{
     margin-top: 10px;
+    color: gray;
 }
 
 .ita i{
-    color: white;
     margin-right: 10px;
 }
 
 .arw-ita{
     margin-left: 10px;
     margin-bottom: 50px;
+    transform: rotate(180deg)
 }
